@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Selection Preview - Dental Arc</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            margin: 0;
+            padding: 24px;
+        }
+        .header {
+            max-width: 1300px;
+            margin: 0 auto 30px auto;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 20px;
+        }
+        h1 {
+            font-size: 28px;
+            margin: 0 0 8px 0;
+            color: #38bdf8;
+        }
+        p.subtitle {
+            color: #94a3b8;
+            font-size: 15px;
+            margin: 0 0 12px 0;
+        }
+        .info-badge {
+            display: inline-block;
+            background: #1e293b;
+            border: 1px solid #334155;
+            padding: 6px 14px;
+            border-radius: 9999px;
+            font-size: 13px;
+            color: #cbd5e1;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, border-color 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: #38bdf8;
+        }
+        .badge {
+            background: #0284c7;
+            color: white;
+            font-weight: 700;
+            font-size: 16px;
+            padding: 8px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .img-container {
+            width: 100%;
+            height: 250px;
+            background: #020617;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Dental Arc — Photo Selection</h1>
+        <p class="subtitle">Please review the extracted photos below and reply with which photo numbers to use for your website (Hero, Doctor Profile, Clinic Interior/Exterior, Treatments).</p>
+        <div>
+            <span class="info-badge">👨‍⚕️ Dr. Archana Raj Jha</span>
+            <span class="info-badge">📍 F-115, Spaze Forum, Tulip Chowk, Sector 70, Gurugram, Haryana 122101</span>
+            <span class="info-badge">📞 +91 79799 27696</span>
+            <span class="info-badge">⭐ 5.0 (250+ reviews)</span>
+            <span class="info-badge">📷 32 Total Photos Extracted</span>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #1</span>
+                <span style="font-size:12px; opacity:0.8;">373.6 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_1.jpg" alt="Photo #1" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #2</span>
+                <span style="font-size:12px; opacity:0.8;">242.5 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_2.jpg" alt="Photo #2" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #3</span>
+                <span style="font-size:12px; opacity:0.8;">252.0 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_3.jpg" alt="Photo #3" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #4</span>
+                <span style="font-size:12px; opacity:0.8;">185.3 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_4.jpg" alt="Photo #4" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #5</span>
+                <span style="font-size:12px; opacity:0.8;">534.0 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_5.jpg" alt="Photo #5" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #6</span>
+                <span style="font-size:12px; opacity:0.8;">316.8 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_6.jpg" alt="Photo #6" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #7</span>
+                <span style="font-size:12px; opacity:0.8;">248.0 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_7.jpg" alt="Photo #7" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #8</span>
+                <span style="font-size:12px; opacity:0.8;">121.3 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_8.jpg" alt="Photo #8" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #9</span>
+                <span style="font-size:12px; opacity:0.8;">308.6 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_9.jpg" alt="Photo #9" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #10</span>
+                <span style="font-size:12px; opacity:0.8;">651.4 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_10.jpg" alt="Photo #10" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #11</span>
+                <span style="font-size:12px; opacity:0.8;">220.0 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_11.jpg" alt="Photo #11" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #12</span>
+                <span style="font-size:12px; opacity:0.8;">355.0 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_12.jpg" alt="Photo #12" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #13</span>
+                <span style="font-size:12px; opacity:0.8;">326.4 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_13.jpg" alt="Photo #13" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #14</span>
+                <span style="font-size:12px; opacity:0.8;">163.8 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_14.jpg" alt="Photo #14" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #15</span>
+                <span style="font-size:12px; opacity:0.8;">206.7 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_15.jpg" alt="Photo #15" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #16</span>
+                <span style="font-size:12px; opacity:0.8;">66.1 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_16.jpg" alt="Photo #16" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #17</span>
+                <span style="font-size:12px; opacity:0.8;">319.4 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_17.jpg" alt="Photo #17" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #18</span>
+                <span style="font-size:12px; opacity:0.8;">210.6 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_18.jpg" alt="Photo #18" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #19</span>
+                <span style="font-size:12px; opacity:0.8;">211.6 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_19.jpg" alt="Photo #19" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #20</span>
+                <span style="font-size:12px; opacity:0.8;">80.7 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_20.jpg" alt="Photo #20" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #21</span>
+                <span style="font-size:12px; opacity:0.8;">205.2 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_21.jpg" alt="Photo #21" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #22</span>
+                <span style="font-size:12px; opacity:0.8;">142.9 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_22.jpg" alt="Photo #22" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #23</span>
+                <span style="font-size:12px; opacity:0.8;">139.5 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_23.jpg" alt="Photo #23" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #24</span>
+                <span style="font-size:12px; opacity:0.8;">85.0 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_24.jpg" alt="Photo #24" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #25</span>
+                <span style="font-size:12px; opacity:0.8;">129.7 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_25.jpg" alt="Photo #25" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #26</span>
+                <span style="font-size:12px; opacity:0.8;">265.8 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_26.jpg" alt="Photo #26" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #27</span>
+                <span style="font-size:12px; opacity:0.8;">123.2 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_27.jpg" alt="Photo #27" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #28</span>
+                <span style="font-size:12px; opacity:0.8;">92.6 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_28.jpg" alt="Photo #28" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #29</span>
+                <span style="font-size:12px; opacity:0.8;">184.3 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_29.jpg" alt="Photo #29" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #30</span>
+                <span style="font-size:12px; opacity:0.8;">358.2 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_30.jpg" alt="Photo #30" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #31</span>
+                <span style="font-size:12px; opacity:0.8;">155.8 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_31.jpg" alt="Photo #31" loading="lazy">
+            </div>
+        </div>
+        <div class="card">
+            <div class="badge">
+                <span>PHOTO #32</span>
+                <span style="font-size:12px; opacity:0.8;">163.1 KB</span>
+            </div>
+            <div class="img-container">
+                <img src="all_photos/photo_32.jpg" alt="Photo #32" loading="lazy">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
